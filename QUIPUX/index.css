@@ -1,0 +1,193 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.grid{
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: 10% 90%;
+}
+
+.cabecera{
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    grid-column: 1/3;
+    grid-row: 1/2;
+}
+
+.logo img{
+    width: 251px;
+    height: 67px;
+}
+
+.info_usuario{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    width: 21%;
+}
+
+.info_usuario p{
+  font-size: 14px;
+  color: #697075;
+}
+
+.info_usuario img{
+    width: 36px;
+    height: 36px;
+}
+
+.nav{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    background-color: #6A737C;
+    display: flex;
+    flex-direction: column;
+}
+
+.lista{
+    list-style: none;
+}
+
+.lista li a{
+    text-decoration: none;
+    color: #F2F2F3;
+    display: inline-block;
+    padding: 15px 15px;
+    line-height: normal;
+    border-bottom: 2px solid transparent;
+}
+
+.activa{
+    text-decoration: none;
+    background-color: #C8CCD0;
+    color: #697075;
+    border-bottom: 2px solid transparent;
+}
+
+.grid2{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 10% 20% 60% 10%;
+    background-color: #F4F4F4;
+}
+
+.contedor1{
+    grid-row: 1/2;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 22px;
+    margin-right: 22px;
+    align-items: center;
+}
+
+.contedor1 p{
+top: 85px;
+left: 275px;
+width: 225px;
+height: 19px;
+text-align: left;
+font: normal normal medium 16px/18px Montserrat;
+letter-spacing: 0px;
+color: #555555;
+opacity: 1;
+}
+
+.formulario form{ 
+    background-color: #FFFFFF;
+    margin-left: 3%;
+    margin-right: 3%;
+    grid-row: 2/3;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.campo {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    font-size: 14px;
+    color: #545454;
+}
+
+input {
+    width: 245px;
+    height: 35px;
+    border: 1px solid #9FA6AD;
+    border-radius: 3px;
+    opacity: 1;
+}
+
+.btn-primary{
+    width: 80px;
+    height: 35px;
+    background: #009CDE;
+    border-radius: 5px;
+    opacity: 1;
+}
+
+.limpiar{
+    display: flex;
+    align-self: center;
+    text-align: left;
+    text-decoration: underline;
+    font: normal 600 14px/18px Montserrat;
+    letter-spacing: 0px;
+    color: #009CDE;
+    opacity: 1;
+}
+
+.resultados{
+    margin-left: 3%;
+    margin-right: 3%;
+    grid-row: 3/4;
+    background: #FFFFFF;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 5px;
+    opacity: 1;
+}
+
+.resultados p{
+    font: normal normal medium 18px/20px Montserrat;
+    color: #555555;
+}
+
+.encabezado{
+    background-color: #016691;
+}
+
+.manipulador{
+    display: flex;
+    flex-direction: row;
+    background-color: red;
+    justify-content: center;
+}
+
+.icono1, .icono2{
+    margin-right: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #555555;
+    border-radius: 5px;
+    opacity: 1;
+}
+
+.manipulador img{
+    width: 18px;
+    height: 18px;
+    opacity: 1;
+}
